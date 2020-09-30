@@ -1,7 +1,7 @@
 /**
  * config配置文件
  */
-var path = require('path');
+var path = require('path');//this use show path to another file
 
 var config = {
 	debug: true,
@@ -10,7 +10,7 @@ var config = {
 		host: '127.0.0.1',
 		username: 'root',
 		password: 'root',
-		database: 'TODOMVC'
+		database: 'TODOMVC' //to connect database
 	}
 }
 
